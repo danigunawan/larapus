@@ -12,7 +12,7 @@
 */
 
 Route::get('/', 'GuestController@index');
-Route::get('/', 'GuestController@index');
+Route::get('/contoh', 'GuestController@index');
 
 Route::get('/about','MyController@showAbout');
 
